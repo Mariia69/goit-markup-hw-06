@@ -1,0 +1,265 @@
+.team-page {
+  text-align: center;
+  background-color: #f4f4fd;
+  padding: 96px 0;
+  max-width: 296px;
+  width: auto;
+}
+.our-team {
+  color: #2e2f42;
+  text-transform: capitalize;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 72px;
+  margin-left: 79px;
+  display: flex;
+}
+.team-item {
+  display: flex;
+  width: 264px;
+  padding-bottom: 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+.team-list {
+  border-radius: 0px 0px 4px 4px;
+  background: #fff;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.conteiner-team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 0;
+  text-align: center;
+}
+.team-title {
+  color: #2e2f42;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.team-text {
+  color: #434455;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+  padding-bottom: 8px;
+}
+.team-text:hover {
+  transform: translateY(0%);
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.socials-item {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+}
+.socials-team-link {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.socials-team-link:hover,
+.socials-team-link:focus {
+  background-color: #404bbf;
+}
+
+.socials-svg:hover {
+  background-color: #404bbf;
+}
+.socials-svg {
+  fill: #f4f4fd;
+}
+@media screen and (min-width: 768px) {
+  .team-page {
+    max-width: 768px;
+    text-align: center;
+  }
+
+  .our-team {
+    text-align: center;
+    margin-bottom: 72px;
+    color: #2e2f42;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    line-height: 1.11;
+  }
+  .team-item {
+    text-align: center;
+    background-color: #fff;
+    max-width: 584рх;
+  }
+  .team-list {
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    width: calc((100% - 24px) / 2);
+  }
+  .container-team {
+    padding: 32px 0;
+  }
+  .team-title {
+    color: #2e2f42;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2; /* 120% */
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+  }
+  .team-text {
+    color: #434455;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.02em;
+    margin-bottom: 8px;
+  }
+  .socials {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 24px;
+  }
+  .socials-item {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+  }
+  .socials-team-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: #4d5ae5;
+  }
+  .socials-team-link:hover,
+  .socials-team-link:focus {
+    background-color: #404bbf;
+  }
+
+  .socials-svg:hover {
+    background-color: #404bbf;
+  }
+  .socials-svg {
+    fill: #f4f4fd;
+  }
+}
+@media screen and (min-width: 1158px){
+    .team-page {
+        padding: 120px 0;
+        background-color: #f4f4fd;
+      }
+      
+      .our-team {
+        color: #2e2f42;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11; /* 111.111% */
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        margin-bottom: 72px;
+      }
+      .team-item {
+        display: flex;
+        gap: 24px;
+      }
+      .team-list {
+        width: calc((100% - 72px) / 4);
+        background-color: #ffffff;
+        border-radius: 0px 0px 4px 4px;
+        box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+          0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+          0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+        text-align: center;
+      }
+      .container-team {
+        padding: 32px 0;
+      }
+      .team-title {
+        color: #2e2f42;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2; /* 120% */
+        letter-spacing: 0.02em;
+        margin-bottom: 8px;
+      }
+      .team-text {
+        color: #434455;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        line-height: 1.5; /* 150% */
+        letter-spacing: 0.02em;
+        margin-bottom: 8px;
+      }
+      .socials {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        gap: 24px;
+      }
+      .socials-item {
+        flex-shrink: 0;
+        width: 40px;
+        height: 40px;
+      }
+      .socials-team-link {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        background-color: #4d5ae5;
+      }
+      .socials-team-link:hover,
+      .socials-team-link:focus {
+        background-color: #404bbf;
+      }
+      
+      .socials-svg:hover {
+        background-color: #404bbf;
+      }
+      .socials-svg {
+        fill: #f4f4fd;}
+}

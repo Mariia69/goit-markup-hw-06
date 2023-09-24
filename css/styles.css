@@ -188,6 +188,7 @@ body {
 /* Hero Image */
 .haro-page {
   padding: 188px 0;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
   background-color: #2e2f42;
@@ -204,13 +205,10 @@ body {
 .container-hero {
   flex-direction: column;
   gap: 40px;
-  display: flex;
-  margin: 0 auto;
 }
 .haro-title {
   color: #fff;
-  text-align: center;
-  font-family: "Roboto", sans-serif;
+   font-family: "Roboto", sans-serif;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07; /* 107.143% */
@@ -219,6 +217,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 48px;
+  display: flex;
 }
 
 .haro-button {
