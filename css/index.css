@@ -1,5 +1,7 @@
-@import"./common.css";
-@import"./content.css";
-@import"./section1.css";
-@import"./section2.css";
-@import"./section3.css";
+@import"./base/container.css";
+@import"./base/global.css";
+@import"./base/visualy.css";
+@import"./layout/section-advan.css";
+@import"./layout/section-haro.css";
+@import"./layout/section-team.css";
+@import"./layout/section-portfolio.css";
