@@ -54,6 +54,7 @@
   }
 
   .advantages-icon {
+    display: flex;
     width: 264px;
     height: 112px;
     display: flex;
