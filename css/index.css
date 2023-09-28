@@ -1,7 +1,10 @@
 @import"./base/container.css";
 @import"./base/global.css";
 @import"./base/visualy.css";
+@import"./layout/header.css";
 @import"./layout/section-advan.css";
 @import"./layout/section-haro.css";
 @import"./layout/section-team.css";
 @import"./layout/section-portfolio.css";
+@import"./layout/footer.css";
+@import"./layout/backdrop.css";
