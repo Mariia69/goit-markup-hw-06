@@ -5,6 +5,7 @@
   }
   .list {
     list-style-type: none;
+    gap:40px;
   }
   .link {
     text-decoration: none;
@@ -15,6 +16,8 @@
   }
   button {
     cursor: pointer;
+    font-family: inherit;
+    color: currentColor;
   }
   
   h1,
@@ -30,7 +33,6 @@
   }
   ul,
   ol {
-    list-style: none;
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
@@ -45,3 +47,9 @@
     background: #fff;
     color: #434455;
   }
+  .input{
+    font-family: inherit;
+  }
+
+
+  
